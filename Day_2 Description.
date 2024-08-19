@@ -1,0 +1,26 @@
+Day 2: Python Basics
+Data Types
+Today, I learned about the fundamental building blocks of Python programming: data types. There are four primary types:
+
+Strings: Textual data enclosed in quotation marks.
+Integers: Whole numbers without decimal points.
+Floats: Numbers with decimal points.
+Booleans: True or False values.
+I can use the type() function to determine the data type of a variable.
+
+Type Conversion
+I can change a data type from one to another using type casting functions like int(), float(), and str().
+
+Mathematical Operations
+Python supports basic arithmetic operations like addition (+), subtraction (-), multiplication (*), division (/), floor division (//), exponentiation (**), and modulus (%). These operations follow a specific order, which can be controlled using parentheses.
+
+Input and Output
+I can use the input() function to get data from the user and the print() function to display output.
+
+f-strings
+F-strings offer a convenient way to format strings by embedding variables directly within them using curly braces {}.
+
+Practical Examples
+I applied these concepts to create programs for calculating BMI and determining the remaining lifespan in weeks, months, and days. I also built a tip calculator that splits the bill among multiple people based on a given tip percentage.
+
+Overall, I gained a solid foundation in Python data types, operations, and input/output, which will be essential for building more complex programs in the future.

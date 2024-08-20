@@ -1,0 +1,22 @@
+Day 3: Control Flow and Decision Making
+Understanding Control Statements
+Today, I focused on control flow statements, which allow me to make decisions in my code.
+
+if, elif, else: These statements are used to execute different code blocks based on specific conditions. 
+For example, I created a program to determine if someone is tall based on their height.
+
+Modulo operator (%): This operator gives the remainder after division. I used it to check if a number is even or odd.
+Nested if statements: I learned how to create conditions within conditions for more complex decision-making. The park ticket example illustrates this.
+
+
+Practical Applications:- 
+
+1. BMI Calculator: I calculated a person's Body Mass Index (BMI) and categorized them as underweight, normal, or overweight.
+2. Pizza Order: I created a program to calculate the total cost of a pizza based on size, pepperoni, and extra cheese options.
+3. Treasure Island Game: I built a simple text-based adventure game where the player makes choices to determine the outcome.
+
+Key Learnings
+Control flow is essential for creating interactive and dynamic programs.
+By combining different conditions and statements, I can create complex logic.
+User input is crucial for making programs interactive.
+Overall, I'm gaining a better understanding of how to control the flow of my programs and make decisions based on different inputs.

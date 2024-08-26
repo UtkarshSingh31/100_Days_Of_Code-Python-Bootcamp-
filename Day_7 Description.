@@ -1,0 +1,17 @@
+Day 7: Hangman Game
+Today, I built a classic Hangman game using Python.
+
+Game Logic:- 
+
+Random word selection: I chose a random word from a list of words.
+Placeholder creation: I created a placeholder string with underscores to represent the hidden word.
+User input: I prompted the user to guess a letter.
+Letter checking: I checked if the guessed letter is in the word.
+Updating display: If the letter is correct, I replaced the corresponding underscore with the letter.
+Lives management: I kept track of the remaining lives. If the user guesses incorrectly, they lose a life.
+Game over conditions: I determined if the game is over when the user runs out of lives or guesses the entire word.
+Additional Features
+Preventing duplicate guesses: I ensured that the user can't guess the same letter twice.
+Displaying remaining lives: I displayed the number of lives remaining to the user.
+Hangman art: I used ASCII art to visually represent the hangman as the user loses lives.
+This project allowed me to practice using loops, conditionals, and string manipulation.

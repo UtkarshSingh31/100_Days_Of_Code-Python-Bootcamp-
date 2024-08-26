@@ -1,0 +1,48 @@
+Day 8: Functions, Parameters, and Caesar Cipher
+
+Key Concepts:- 
+
+Functions: Reusable blocks of code that can take inputs (parameters) and return outputs.
+Parameters: Values passed to functions that can be used within the function's code.
+Caesar Cipher: A simple encryption technique that shifts each letter in a text by a fixed number of positions.
+
+Project Overview:-
+
+This project implements the Caesar Cipher algorithm, allowing users to encrypt or decrypt messages.
+Users can input the desired shift amount and choose whether to encode or decode the message.
+The code includes functions for encryption and decryption, as well as a main loop for continuous usage.
+
+Code Structure:- 
+
+Import necessary modules: Import the logo module for visual display.
+Define the alphabet: Create a list containing all the letters of the alphabet.
+Define the encrypt function:
+Takes the original text and shift amount as input.
+Encrypts the text by shifting each letter by the specified amount.
+Handles non-alphabetic characters.
+Returns the encrypted text.
+Define the decrypt function:
+Calls the encrypt function with the same original text and a negative shift amount to decrypt.
+Define the caesar function:
+Takes the original text, shift amount, and encode/decode option as input.
+Calls the appropriate encrypt or decrypt function based on the option.
+
+Main loop:
+Continuously prompts the user for input until they choose to quit.
+Calls the caesar function with the user's input.
+Prints the encrypted or decrypted result.
+Asks the user if they want to continue.
+
+Key Points:-
+
+The encrypt and decrypt functions use the modulo operator to ensure that the shifted index stays within the range of the alphabet.
+The code handles non-alphabetic characters by preserving them in the output.
+The main loop allows users to perform multiple encryption/decryption operations.
+The project demonstrates the use of functions, parameters, and basic string manipulation in Python.
+
+
+
+
+
+
+

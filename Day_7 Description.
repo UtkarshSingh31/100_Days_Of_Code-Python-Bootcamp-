@@ -15,3 +15,5 @@ Preventing duplicate guesses: I ensured that the user can't guess the same lette
 Displaying remaining lives: I displayed the number of lives remaining to the user.
 Hangman art: I used ASCII art to visually represent the hangman as the user loses lives.
 This project allowed me to practice using loops, conditionals, and string manipulation.
+
+NOTE:- YOU MUST DOWNLOAD THE OTHERS MODULES(hangman_art.py,hangman_words.py) FROM GAME TO RUN.

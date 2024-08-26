@@ -40,7 +40,7 @@ The code handles non-alphabetic characters by preserving them in the output.
 The main loop allows users to perform multiple encryption/decryption operations.
 The project demonstrates the use of functions, parameters, and basic string manipulation in Python.
 
-
+NOTE:- MUST DOWNLOAD THE NECCESARY MODULE(ART.PY) FROM LOGO
 
 
 

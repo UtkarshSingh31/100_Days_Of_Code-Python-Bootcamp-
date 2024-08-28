@@ -1,0 +1,38 @@
+Day 9: Dictionaries and Nesting
+
+Dictionaries
+
+Key-value pairs: Dictionaries store data as key-value pairs, where each key is unique and associated with a corresponding value.   
+Accessing values: Use the key to access the corresponding value.
+Adding and modifying elements: Add new key-value pairs or modify existing ones.
+Looping through dictionaries: Iterate over the keys of a dictionary using a for loop.
+Nesting
+
+Nested lists: Store lists within lists.
+Nested dictionaries: Store dictionaries within dictionaries.
+Accessing nested elements: Use multiple indexing or key access to retrieve nested values.
+
+
+Secret Auction Program:- 
+
+Prompts users: Asks users for their names and bids.
+Stores bids: Stores the bids in a dictionary with the name as the key and the bid amount as the value.
+Finds highest bidder: Iterates through the dictionary to find the highest bid and the corresponding winner.
+Continues bidding: Allows multiple bidders to participate until no one wants to bid further.
+Code Explanation
+
+Define the find_highest_bidder function:
+Takes a dictionary of bids as input.
+Iterates through the dictionary to find the highest bid and the corresponding winner.
+Prints the winner and their bid amount.
+Initialize the bid dictionary: Creates an empty dictionary to store bids.
+Start the bidding loop:
+Continuously prompts users for their names and bids until no one wants to continue.
+Stores the bids in the bid dictionary.
+Calls the find_highest_bidder function to determine the winner.
+Clears the screen if there are more bidders.
+
+Key Points:-
+Dictionaries are useful for storing data in a key-value format.
+Nesting allows for organizing data in a hierarchical structure.
+The Secret Auction program demonstrates how to use dictionaries and loops to collect and process user input.

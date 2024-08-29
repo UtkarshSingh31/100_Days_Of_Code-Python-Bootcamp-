@@ -1,0 +1,52 @@
+Day 10: Functions Revisited
+
+
+Functions
+
+Returning values: Functions can return values using the return statement.
+Nested functions: Functions can be defined within other functions.
+Multiple return values: Functions can return multiple values using tuples.
+Docstrings: Use docstrings to document the purpose and usage of functions.
+
+
+Calculator Program
+
+Function definitions: Defines functions for addition, subtraction, multiplication, and division.
+Operations dictionary: Stores the functions in a dictionary with corresponding operation symbols.
+Main calculator function:
+Prompts the user for input.
+Retrieves the appropriate function from the dictionary.
+Calls the function with the input numbers.
+Prints the result.
+Offers options to continue with the result or start a new calculation.
+
+
+Code Explanation
+
+Define functions: Defines the add, subtract, multiply, and divide functions, each returning the corresponding mathematical operation.
+Create the operations dictionary: Maps operation symbols to their respective functions.
+Define the calculator function:
+Prints the calculator logo.
+Prompts the user for the first number.
+Enters a loop for continuous calculations.
+Displays available operations.
+Prompts the user for the operation and second number.
+Retrieves the corresponding function from the operations dictionary.
+Calls the function with the input numbers and stores the result.
+Prints the result.
+Asks the user if they want to continue with the result, start a new calculation, or quit.
+Updates the num1 variable if the user chooses to continue.
+
+
+Key Points
+
+The calculator function effectively uses the defined functions to perform calculations based on the user's input.
+The operations dictionary provides a convenient way to map symbols to functions.
+The loop structure allows for multiple calculations within a single session.
+
+
+
+
+
+
+

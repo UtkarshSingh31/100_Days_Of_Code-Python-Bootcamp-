@@ -1,0 +1,25 @@
+DAY 11 OF 100 DAYS Python Bootcamp
+FIRSY EXCLUSIVE PROJECT :- BLACKJACK 21 ROJECT
+Blackjack is a popular card game where players try to get a hand value closer to 21 than the dealer without going over. Players can hit (draw another card), stand (keep their hand),
+double down (double their bet and receive one more card), or split (if they have two cards of the same rank). The dealer must hit on a hand value of 16 or lower and stand on a hand value of 17 or higher.
+
+Project Description
+
+This Python code implements a basic Blackjack game. Players and the dealer are dealt two cards each. Players can hit (receive another card) or stand. The dealer must hit on a hand value of 16 or lower and stand on a hand value of 17 or higher. The winner is determined by the hand value closest to 21 without going over.
+
+Key Features:-
+
+Card dealing: The deal_card() function randomly selects a card from a deck of 52 cards.
+Score calculation: The calculate_score() function calculates the total value of a hand, considering the special rules for Aces (1 or 11).
+Game logic: The compare() function determines the winner based on the player and dealer scores.
+Player and dealer turns: The play_game() function handles the game flow, including player decisions (hit or stand) and dealer actions.
+
+
+How it Works
+
+Initialization: The game initializes with empty hands for the player and dealer, and the is_game_over flag set to False.
+Initial deal: Two cards are dealt to both the player and the dealer.
+Player's turn: The player can choose to hit or stand. If they hit, they receive another card.
+Dealer's turn: The dealer must hit if their hand value is 16 or lower.
+Outcome determination: The compare() function determines the winner based on the final hand values.
+Game loop: The game continues until the player chooses to stop or the game ends due to busting or reaching 21.

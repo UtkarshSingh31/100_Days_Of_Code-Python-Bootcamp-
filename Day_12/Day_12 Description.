@@ -1,0 +1,25 @@
+Daay 12 of 100 Days
+
+Project Description: Number Guessing Game
+
+This Python code implements a number guessing game where the player tries to guess a randomly generated number within a specified range. The game offers two difficulty levels: easy with 10 attempts and hard with 5 attempts.
+
+Key Features:
+
+Random number generation: A random number between 1 and 100 is generated for the player to guess.
+Difficulty levels: Players can choose between easy and hard difficulty, affecting the number of attempts.
+Guessing loop: The game continues until the player guesses correctly or runs out of attempts.
+Feedback: The player receives feedback on whether their guess is too high or too low.
+Game over: When the player runs out of attempts, the game ends.
+Replay option: The player is prompted to play again after each game.
+How it Works:
+
+Initialization: The game generates a random number and prompts the player to choose a difficulty level.
+Guessing loop:
+The player enters their guess.
+The game compares the guess to the random number and provides feedback.
+The number of attempts is decremented.
+If the player guesses correctly, the game ends and the player wins.
+If the player runs out of attempts, the game ends and the player loses.
+Replay option: The player is asked if they want to play again. If yes, the game restarts with a new random number.
+Overall, this code provides a simple and engaging number guessing game with adjustable difficulty levels.

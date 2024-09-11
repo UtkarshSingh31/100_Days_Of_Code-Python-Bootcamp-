@@ -1,0 +1,57 @@
+# Coffee Machine
+
+A Python-based console application that simulates a simple coffee machine. Users can order different types of coffee, and the machine will check resources, process payments, and dispense coffee accordingly. 
+
+## How to Use
+
+1. **Start the Machine**: Run the script in your terminal to start the coffee machine.
+2. **Choose Your Drink**: Type `espresso`, `latte`, or `cappuccino` to order a coffee.
+3. **Insert Coins**: Provide the required coins as input to pay for your drink.
+4. **Receive Your Drink**: If the payment is sufficient and resources are available, the machine will dispense your coffee and provide any necessary change.
+5. **Check Resources**: Type `report` to see the remaining resources in the machine.
+6. **Turn Off the Machine**: Type `off` to stop the program.
+
+## Features
+
+- **Menu Options**: Choose from three different drinks: `espresso`, `latte`, and `cappuccino`.
+- **Resource Management**: The machine keeps track of its water, milk, and coffee resources and checks availability before processing orders.
+- **Coin Processing**: The machine calculates the total from the coins inserted and checks if the payment is sufficient.
+- **Transaction Handling**: Provides change if necessary and refunds if the payment is insufficient.
+- **Reporting**: Shows a report of current resources and profit when prompted.
+
+## Requirements
+
+- Python 3.x
+
+## How to Run
+
+1. Clone this repository.
+2. Ensure Python is installed on your machine.
+3. Run the script in your terminal:
+
+    ```sh
+    python coffee_machine.py
+    ```
+
+4. Follow the on-screen prompts to interact with the coffee machine.
+
+## Example Usage
+
+
+## Code Overview
+
+### Main Components
+
+- **`MENU`**: Contains the details of each coffee type, including ingredients and cost.
+- **`resources`**: Holds the current available resources of the machine (water, milk, coffee).
+- **Functions**:
+  - `is_resource_sufficient()`: Checks if there are enough ingredients to make the selected drink.
+  - `process_coins()`: Calculates the total amount of money inserted.
+  - `is_transaction_successful()`: Checks if the payment is sufficient to cover the drink cost.
+  - `make_coffee()`: Deducts the ingredients used to make the selected coffee and dispenses it.
+
+## Contributing
+
+Feel free to fork this project, create a branch, and submit a pull request for any improvements or new features!
+
+

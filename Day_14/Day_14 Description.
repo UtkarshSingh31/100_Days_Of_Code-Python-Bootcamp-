@@ -1,0 +1,37 @@
+Day 14 Description.
+
+# Higher or Lower Game
+
+A simple Python console game where players guess which of two celebrities or public figures has more social media followers. The game continues until the player makes an incorrect guess.
+
+## How to Play
+
+1. **Compare Two Profiles**: The game displays two profiles (A and B), each representing a celebrity or public figure with a description, origin, and follower count.
+2. **Make a Guess**: Type 'a' if you think profile A has more followers or 'b' if you think profile B has more.
+3. **Score Points**: If your guess is correct, your score increases, and you proceed to the next round with a new profile.
+4. **Game Over**: The game ends when you make an incorrect guess, and your final score is displayed.
+5. **Play Again**: After the game ends, you have the option to play again or exit.
+
+## Features
+
+- **Randomized Profiles**: Profiles are randomly selected to ensure a unique experience every time you play.
+- **Score Tracking**: Keep track of your score and see how many correct guesses you can make in a row.
+- **Replay Option**: Choose to play again after the game ends for endless fun!
+
+## Requirements
+
+- Python 3.x
+- `art` module (for game logo and visuals)
+- `game_data` module (for the list of celebrity profiles)
+
+## How to Run
+
+1. Clone this repository.
+2. Ensure you have Python installed.
+3. Run the script in your terminal:
+
+    ```sh
+    python higher_lower.py
+    ```
+
+Enjoy the game and see how well you know the popularity of various public figures!

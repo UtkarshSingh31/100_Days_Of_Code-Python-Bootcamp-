@@ -1,0 +1,18 @@
+This code represents a Python program that simulates a coffee machine using Object-Oriented Programming (OOP). 
+
+Here is an explanation :-
+
+
+Classes and Objects: The code uses three classes (Menu, MenuItem, CoffeeMaker, and MoneyMachine) imported from external modules to represent 
+different components of a coffee machine.
+Menu handles the available coffee options.
+MenuItem might represent a single coffee item.
+CoffeeMaker manages coffee resources and brewing logic.
+MoneyMachine handles financial transactions, such as payments.
+Flow of Execution: The code runs in a while loop, allowing continuous user interaction until the user enters "off".
+Displays current options using menu.get_items().
+Takes user input to either display a report, turn off the machine, or make a coffee.
+If a valid coffee choice is made, checks if resources are sufficient and if payment is successful, then brews the coffee.
+OOP Principles: Demonstrates encapsulation by managing responsibilities within specific classes (CoffeeMaker for making coffee, MoneyMachine for handling money).
+
+Feel free to fork this repository, create a branch, and submit a pull request for any improvements or additional examples!

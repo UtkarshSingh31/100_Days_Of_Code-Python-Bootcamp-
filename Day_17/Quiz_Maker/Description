@@ -1,0 +1,19 @@
+# Quiz Game in Python
+
+This Python project is a simple console-based quiz game that uses Object-Oriented Programming (OOP) principles. The game presents multiple-choice questions to the user and tracks their score as they answer.
+
+## How It Works
+
+1. **Question Data**: The questions and answers are stored in a data source (`data.py`).
+2. **Question Model**: The `Question` class represents each question with its text and correct answer.
+3. **Quiz Logic**: The `QuizBrain` class manages the quiz flow, checking answers, and tracking the score.
+
+## Usage
+
+Run the script to start the quiz. The game will display questions one by one, and you can input your answers. After all questions have been answered, the game displays your final score.
+
+## Example
+
+```python
+You've completed the quiz!
+Your final score is: 5 out of 10

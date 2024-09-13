@@ -1,1 +1,7 @@
-Intro to OOPs and project amke of quiz making.
+
+# Object-Oriented Programming (OOP) in Python
+
+Object-Oriented Programming (OOP) in Python allows developers to create modular, reusable, and scalable code structures by defining classes and objects. OOP concepts such as inheritance, encapsulation, polymorphism, and abstraction help in designing efficient solutions to complex problems. By mastering these principles, developers can build applications that are easier to maintain and extend over time.
+
+This repository provides examples and explanations of key OOP concepts in Python, including classes, objects, inheritance, polymorphism, encapsulation, and abstraction. Use these examples to learn and practice OOP to enhance your Python programming skills.
+Intro to OOPs and project of quiz maker.
